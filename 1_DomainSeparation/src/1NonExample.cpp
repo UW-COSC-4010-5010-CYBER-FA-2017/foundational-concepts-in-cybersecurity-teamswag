@@ -96,8 +96,14 @@ void listUsers(){
 
 // Resets the admin password
 void passwordReset(){
+	string tempName;
 	string newPass;
 	cls();
+	//cout << "Enter admin name: ";
+	//cin >> tempName;
+	//if(tempName != "HackerMan"){
+	//	welcome(uname);
+	//}
 	cout << "Enter new admin password: ";
 	cin >> newPass;
 	adminPass = newPass;
