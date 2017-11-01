@@ -17,3 +17,5 @@
 [ ] 9. Simplicity
 
 [ ] 10. Minimization 
+
+BMI(height, weight)
