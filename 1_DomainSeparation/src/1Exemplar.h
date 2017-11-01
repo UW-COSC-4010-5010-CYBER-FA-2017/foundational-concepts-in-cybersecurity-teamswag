@@ -13,7 +13,7 @@ string adminPass("hunter2");
 
 vector<User> userVect;
 
-User defaultAdmin = {"HackerMan", "hunter2", 3};
+User defaultAdmin = {adminName, adminPass, 3};
 User guest = {"guest", "guest", 0};
 
 
